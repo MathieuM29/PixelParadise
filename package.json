@@ -8,7 +8,6 @@
     "@babel/plugin-proposal-object-rest-spread": "*",
     "@babel/preset-env": "*",
     "@babel/preset-react": "*",
-    "babel-loader": "*",
     "bundle-stats-webpack-plugin": "*",
     "clean-webpack-plugin": "*",
     "copy-webpack-plugin": "*",
