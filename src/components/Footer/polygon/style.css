@@ -1,0 +1,55 @@
+:root {
+	--color1: #0a2647;
+	--color2: #144272;
+	--color3: #205295;
+	--color4: #2c74b3;
+	--color5: #d8d8d8;
+	--polygon1: polygon(
+		100% 100%,
+		70% 0,
+		100% 30%,
+		100% 70%,
+		0 0,
+		30% 100%,
+		0 70%,
+		0 30%
+	);
+	--gradient: linear-gradient(
+		335deg,
+		rgba(2, 0, 36, 1) 12%,
+		rgba(0, 189, 231, 1) 86%,
+		rgba(0, 212, 255, 1) 100%
+	);
+}
+
+
+@media (max-width: 376px) {
+	.polygonContainer {
+		display: flex;
+		align-items: center;
+		filter: drop-shadow(-1px 10px 5px rgba(0, 189, 231, 0.8));
+	}
+	.polygon {
+		display: flex;
+		clip-path: var(--polygon1);
+		background: var(--gradient);
+		/* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
+		height: 100px;
+		width: 100px;
+	}
+}
+.polygonContainer {
+		display: flex;
+		align-items: center;
+		margin-right: 3%;
+		margin-left: 2%;
+		filter: drop-shadow(-1px 10px 5px rgba(0, 189, 231, 0.8));
+	}
+	.polygon {
+		display: flex;
+		clip-path: var(--polygon1);
+		background: var(--gradient);
+		/* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
+		height: 100px;
+		width: 100px;
+	}

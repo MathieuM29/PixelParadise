@@ -1,0 +1,45 @@
+:root {
+	--color1: #0a2647;
+	--color2: #144272;
+	--color3: #205295;
+	--color4: #2c74b3;
+	--color5: #d8d8d8;
+}
+
+@media (max-width: 376px) {
+	.generalConditionContainer {
+		color: var(--color5);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.generalConditionContainer ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.generalConditionContainer li {
+		font-size: 0.8rem;
+		margin: 5px;
+	}
+}
+
+.generalConditionContainer {
+		color: var(--color5);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.generalConditionContainer ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.generalConditionContainer li {
+		font-size: 0.8rem;
+		margin: 5px;
+	}
