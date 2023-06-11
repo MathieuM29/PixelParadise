@@ -1,6 +1,5 @@
 import './style.css';
 
-
 function Footer() {
   return (
     <footer className="footer">
@@ -20,7 +19,7 @@ function Footer() {
                   </ul>
               </div>
               <div className='logo'>
-                <img src="" alt="" />
+               
               </div>
           </div>
     </footer>
