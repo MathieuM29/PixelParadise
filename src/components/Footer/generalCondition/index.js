@@ -8,15 +8,14 @@ class GeneralCondition extends React.Component {
       <div className="generalConditionContainer">
 				<ul className="generalConditionList">
 					<li>
-						<a href="">Condition Générale de Vente</a>
+						<a href="">CGU</a>
 					</li>
 					<li>
-						<a href="">Condition Générale d'utilisation</a>
+						<a href="">CGV</a>
 					</li>
 				</ul>
 			</div>
     );
   }
 }
-
 export default GeneralCondition;
