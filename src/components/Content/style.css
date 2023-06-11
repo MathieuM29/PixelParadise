@@ -1,0 +1,11 @@
+@media (max-width: 375px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    background-color: #2c74b3;
+  }
+}
