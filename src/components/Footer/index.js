@@ -8,18 +8,20 @@ import GeneralCondition from './generalCondition/index';
 import Polygon from './polygon/index';
 
 
+
 class Footer extends React.Component {
   render() {
     return (
       <footer className="footer">
-			<div className="footerContainer">
-				<LinkListPath />
-				<GeneralCondition />
-				<Polygon />
-			</div>
-		</footer>
+        <div className="footerContainer">
+          <LinkListPath />
+          <GeneralCondition />
+          <Polygon />
+        </div>
+      </footer>
     );
   }
 }
+
 
 export default Footer;

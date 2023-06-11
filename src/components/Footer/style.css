@@ -1,3 +1,4 @@
+
 :root {
 	--color1: #0a2647;
 	--color2: #144272;
@@ -47,3 +48,20 @@ footer {
 		border-radius: 5px;
 		backdrop-filter: blur(10px);
 	}
+
+@media (max-width: 375px) {
+
+    .footer{
+
+        display:flex;
+        background-color: #144272;
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+        
+    }
+}
