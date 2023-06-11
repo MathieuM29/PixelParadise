@@ -1,74 +1,66 @@
 :root {
-	--color1: #0a2647;
-	--color2: #144272;
-	--color3: #205295;
-	--color4: #2c74b3;
-	--color5: #d8d8d8;
-	--polygon1: polygon(
-		100% 100%,
-		70% 0,
-		100% 30%,
-		100% 70%,
-		0 0,
-		30% 100%,
-		0 70%,
-		0 30%
-	);
-	--gradient: linear-gradient(
-		335deg,
-		rgba(2, 0, 36, 1) 12%,
-		rgba(0, 189, 231, 1) 86%,
-		rgba(0, 212, 255, 1) 100%
-	);
-}
-
-@media (max-width: 376px) {
-	footer {
-		height: 150px;
-		display: flex;
-		justify-content: center;
-		background: var(--color1);
-		border-radius: 5px 5px 0 0;
-	}
-	.footerContainer {
-		display: flex;
-		width: calc(100% - 15px);
-		padding: 5px 5px 6px;
-		margin: 10px;
-		background: var(--color2);
-		border: none;
-		border-radius: 5px;
-		backdrop-filter: blur(10px);
-	}
-}
-footer {
-	height: 150px;
-	display: flex;
-	justify-content: center;
-	background: var(--color1);
-	border-radius: 5px 5px 0 0;
-}
-.footerContainer {
-	display: flex;
-	justify-content: space-between;
-	width: calc(100% - 15px);
-	padding: 5px 5px 6px;
-	margin: 10px;
-	background: var(--color2);
-	border: none;
-	border-radius: 5px;
-	backdrop-filter: blur(10px);
+  --color1: #0a2647;
+  --color2: #144272;
+  --color3: #205295;
+  --color4: #2c74b3;
+  --color5: #d8d8d8;
+  --polygon1: polygon(
+    100% 100%,
+    70% 0,
+    100% 30%,
+    100% 70%,
+    0 0,
+    30% 100%,
+    0 70%,
+    0 30%
+  );
+  --gradient: linear-gradient(
+    335deg,
+    rgba(2, 0, 36, 1) 12%,
+    rgba(0, 189, 231, 1) 86%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 @media (max-width: 375px) {
-	.footer {
-		display: flex;
-		background-color: #144272;
-		height: 15vh;
-		width: 100vw;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
-	}
+  footer {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    /* background: var(--color1); */
+    background-color: #144272;
+    border-radius: 5px 5px 0 0;
+  }
+  .footerContainer {
+    display: flex;
+    width: calc(100% - 15px);
+    padding: 5px 5px 6px;
+    margin: 10px;
+    background: var(--color2);
+    border: none;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+  }
+  footer button {
+    font-family: "Quicksand", Roboto, sans-serif;
+  }
+}
+
+footer {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  background: var(--color1);
+  border-radius: 5px 5px 0 0;
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 15px);
+  padding: 5px 5px 6px;
+  margin: 10px;
+  background: var(--color2);
+  border: none;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
 }
