@@ -19,7 +19,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		
+		text-shadow: 1px 1px 10px var(--color1);
 		
 	}
 	.generalConditionContainer li {
