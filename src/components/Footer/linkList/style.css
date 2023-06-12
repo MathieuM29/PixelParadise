@@ -6,7 +6,7 @@
 	--color5: #d8d8d8;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
 	.linkList {
 		padding-top: 2px;
 		display: flex;
