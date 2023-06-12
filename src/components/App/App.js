@@ -8,12 +8,14 @@ import { useState } from "react";
 function App() {
 
 	const [isVisible, setIsVisible] = useState(false);
-	console.log(isVisible);
+	
 	return (
 		<div className="App">
 			<Header isVisible={isVisible} setIsVisible={setIsVisible} />
-			{!isVisible && <Content />}
-			{!isVisible && <Footer />}
+			{/* {!isVisible && <Content />}
+			{!isVisible && <Footer />} */}
+			<Content />
+			<Footer />
 			
 		</div>
 	);

@@ -6,11 +6,39 @@
     align-items: center;
     height: 90vh;
     width: 100vw;
-    background-color: #144272;
+    background-color: #205295;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 0;
     right: 0;
     bottom: 0;
+    /* transition: 0.5s; */
+    z-index: 999;
+    animation: popLeft 0.3s ease-in-out;
+  }
+
+  .hide {
+    animation: hideRight 0.3s ease-in-out;
+    background-color: orange;
+  }
+}
+
+@keyframes popLeft {
+  0% {
+    transform: translateX(-300px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes hideRight {
+  0% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(-300px);
   }
 }

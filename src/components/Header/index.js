@@ -1,22 +1,24 @@
 import './style.css';
+import '../../../src/components/Header/Menu/style.css';
 import Menu from './Menu';
 import { useState } from "react";
 
 
 function Header({ isVisible, setIsVisible }) {
 
-  // const handleIsVisible = () => {
+  const handleIsVisible = () => {
 
-  //   setIsVisible(!isVisible);
-  // };
+    console.log(isVisible);
+    setIsVisible(!isVisible);
+  };
 
   return (
     <header className="header">
 
       <div className="header__menu">
-        <i className="header__menu--icon fa-solid fa-bars"onClick={() => setIsVisible(!isVisible)}></i>
-        
-        {isVisible && <Menu />}
+        {isVisible && <i className="header i fa-sharp fa-solid fa-xmark" onClick={handleIsVisible}></i>}
+        {!isVisible && <i className="header i fa-solid fa-bars"onClick={handleIsVisible}></i>}
+        {isVisible && <Menu isVisible={isVisible} />}
       </div>
 
       <div className="header__title">
