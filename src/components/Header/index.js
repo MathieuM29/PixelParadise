@@ -18,7 +18,7 @@ function Header({ isVisible, setIsVisible }) {
       <div className="header__menu">
         {isVisible && <i className="header i fa-sharp fa-solid fa-xmark" onClick={handleIsVisible}></i>}
         {!isVisible && <i className="header i fa-solid fa-bars"onClick={handleIsVisible}></i>}
-        {isVisible && <Menu isVisible={isVisible} />}
+        {!isVisible && <Menu isVisible={isVisible} />}
       </div>
 
       <div className="header__title">
