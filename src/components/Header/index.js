@@ -37,8 +37,9 @@ function Header({ isVisible, setIsVisible }) {
 				<i className="fa-solid fa-circle-user"></i>
 				<i className="fa-solid fa-magnifying-glass"></i>
 			</div>
-		</header>
+		</header>		
 	);
+
 }
 
 export default Header;
