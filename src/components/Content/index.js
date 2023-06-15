@@ -1,4 +1,4 @@
-import './style.css';
+import './_style.scss';
 
 function Content() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./_style.scss";
 
 
 class Polygon extends React.Component {
