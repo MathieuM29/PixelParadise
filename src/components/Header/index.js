@@ -18,11 +18,11 @@ function Header({ isVisible, setIsVisible }) {
       <div className="header__menu">
         {isVisible && <i className="header i fa-sharp fa-solid fa-xmark" onClick={handleIsVisible}></i>}
         {!isVisible && <i className="header i fa-solid fa-bars"onClick={handleIsVisible}></i>}
-        {!isVisible && <Menu isVisible={isVisible} />}
+        {isVisible && <Menu isVisible={isVisible} />}
       </div>
 
       <div className="header__title">
-       <h1 className="header__title--text">PixelParadise</h1>
+       <h1 className="header__title--text"><a href="/" title="Retour accueil">PixelParadise</a></h1>
       </div>
       
       <div className="header__icons">
