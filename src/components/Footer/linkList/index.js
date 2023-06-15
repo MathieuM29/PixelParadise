@@ -1,8 +1,8 @@
 import "./_style.scss";
 import React from "react";
 
-class LinkListPath extends React.Component {
-	render() {
+const LinkListPath = () => {
+	 
 		return (
 			<div className="linkList">
 				
@@ -21,7 +21,7 @@ class LinkListPath extends React.Component {
 				
 			</div>
 		);
-	}
+	
 }
 
 export default LinkListPath;
