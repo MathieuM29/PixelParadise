@@ -17,27 +17,27 @@ function Menu( {isVisible} ) {
         
         <div className="menu__container--item">
           <i class="fa-solid fa-house"></i>
-          <a className="menu__container--item" href="/" title="Page d'accueil">Accueil</a>
+          <a href="/" title="Page d'accueil">Accueil</a>
         </div>
         
         <div className="menu__container--item">
           <i class="fa-solid fa-microchip"></i>
-          <a className="menu__container--item" href="/" title="Page d'accueil">Composants</a>
+          <a href="/" title="Page d'accueil">Composants</a>
         </div>
         
         <div className="menu__container--item">
           <i class="fa-solid fa-info"></i>
-          <a className="menu__container--item" href="/" title="Page d'accueil">Aide / Faq</a>
+          <a href="/" title="Page d'accueil">Aide / Faq</a>
         </div>
         
         <div className="menu__container--item">
           <i class="fa-solid fa-address-card"></i>
-          <a className="menu__container--item" href="/" title="Page d'accueil">A propos</a>
+          <a href="/" title="Page d'accueil">A propos</a>
         </div>
         
         <div className="menu__container--item">
           <i class="fa-solid fa-envelope"></i>
-          <a className="menu__container--item" href="/" title="Page d'accueil">Contact</a>
+          <a href="/" title="Page d'accueil">Contact</a>
         </div>  
       </nav>
     </div>
