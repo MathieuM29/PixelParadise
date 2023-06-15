@@ -1,4 +1,4 @@
-import './style.css';
+import './_style.scss';
 import { useState } from "react";
 
 function Menu( {isVisible} ) {
@@ -7,7 +7,7 @@ function Menu( {isVisible} ) {
   
   
   // if (!isVisible) {
-  //   // document.body.getElementsByClassName('menu').classList.add('hide');
+  // document.body.getElementsByClassName('menu').classList.add('hide');
   //   classNames += 'hide';
   // };
 

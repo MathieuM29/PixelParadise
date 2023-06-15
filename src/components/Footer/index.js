@@ -1,9 +1,6 @@
 import React from "react";
-import "./style.css";
-import "./polygon/style.css";
-import "./generalCondition/style.css";
-import "./linkList/style.css";
-import LinkListPath from "./linkList/index.js";
+import "./_style.scss";
+import LinkListPath from "./linkList/index";
 import GeneralCondition from "./generalCondition/index";
 import Polygon from "./polygon/index";
 
